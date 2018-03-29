@@ -16,8 +16,8 @@
         "axios": "^0.18.0"
     },
     "repository": {
-      "type": "git",
-      "url": "https://github.com/dtolb/gitbook-plugin-save-url-to-file.git"
-  },
-  "homepage": "https://github.com/dtolb/gitbook-plugin-save-url-to-file"
+        "type": "git",
+        "url": "https://github.com/dtolb/gitbook-plugin-save-url-to-file.git"
+    },
+    "homepage": "https://github.com/dtolb/gitbook-plugin-save-url-to-file"
 }
