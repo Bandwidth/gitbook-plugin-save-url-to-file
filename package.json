@@ -1,6 +1,6 @@
 {
     "name": "gitbook-plugin-save-url-to-file",
-    "version": "1.0.3",
+    "version": "1.0.4",
     "description": "save urls to file",
     "main": "index.js",
     "scripts": {
