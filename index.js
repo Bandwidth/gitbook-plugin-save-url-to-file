@@ -1,5 +1,6 @@
 var axios = require('axios');
-var fs = require('fs');
+var fs = require('fs-extra');
+var path = require('path');
 
 var hooks = {};
 
@@ -9,7 +10,10 @@ const download = (url, dest) => {
     url: url,
     method: 'get',
   }).then((result) => {
+    var bookPath = '_book/'+dest;
     fs.writeFileSync(dest, result.data);
+    fs.ensureFileSync(bookPath);
+    fs.copySync(dest, bookPath);
     return dest;
   })
   .catch(e => {
