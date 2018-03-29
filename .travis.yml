@@ -1,3 +1,11 @@
 language: node_js
 node_js:
 - stable
+deploy:
+  provider: npm
+  email: hi@dtolb.com
+  api_key:
+    secure: KLBAMu/RySzzAQxD+jwddyFtUTBlaoqwHFLd7ir5FcETpN1MJDHWCR+676tbidjW26gmPrHeh+5ldq0Wf8qT9ja8tAJhKv1XbThv8Yv2suxIIsUyyyJ3pLJH7E2udDOTOL2CrswQGQkiOVDNeEpYnJ5bLgtntYK8UoHoLHaChV4m4/fRFEU5C47thep3FAq45kq7g1FTY9M3n6uFWc8TxtZvGcWEgGvTEz+V2clcgjzAooTaoCNsP3zldgGe2JaMNgajHNYtelJfa8Wu9/9nnXWrqSr3OUBCP3RUOMrQAAqqfUXSGzAIaPTNMZMr4WHiv/ff/xnCb5/jvmzl9C4nd0sWJYgGnOCd6svj4vKOCp6mSb4K21CbFadQkREAV1hQQu7PUfhtz61kZ/59IydtTIozaeDn/0pfiA+SZwd0/qSDAbkXdiU0n+G+5lu9Rw60IgxqVolRV/0hYsvk3nEs82meZeFtG0/kmNm/dz0KvUtioaH+wFlrQTofgh9GOP5bwvfZ+IsXRPTd+JFc7CGpl11KaJYA+tJu3wsNTiaNh0h5/wFEG4hO/p3YXF7BgbUD1BS+HVe222X5BqK21Mhm5x60wkftgheU+9Wy8EzI10ZI6ONKC9hyu+a9He8fp/Kht1PCToEJch2XyyJYdCgv1pv4lMpRuJOF372jSxoPaHQ=
+  on:
+    tags: true
+    repo: dtolb/gitbook-plugin-save-url-to-file
