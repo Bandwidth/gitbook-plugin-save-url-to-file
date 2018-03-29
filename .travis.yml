@@ -1,6 +1,7 @@
 language: node_js
 node_js:
 - stable
+script: echo "no tests"
 deploy:
   provider: npm
   email: hi@dtolb.com
