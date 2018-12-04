@@ -18,7 +18,7 @@
     },
     "repository": {
         "type": "git",
-        "url": "https://github.com/dtolb/gitbook-plugin-save-url-to-file.git"
+        "url": "https://github.com/Bandwidth/gitbook-plugin-save-url-to-file.git"
     },
-    "homepage": "https://github.com/dtolb/gitbook-plugin-save-url-to-file"
+    "homepage": "https://github.com/Bandwidth/gitbook-plugin-save-url-to-file"
 }
